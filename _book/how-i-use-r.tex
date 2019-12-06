@@ -30,46 +30,6 @@
 \urlstyle{same}  % don't use monospace font for urls
 \usepackage{natbib}
 \bibliographystyle{apalike}
-\usepackage{color}
-\usepackage{fancyvrb}
-\newcommand{\VerbBar}{|}
-\newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
-\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
-% Add ',fontsize=\small' for more characters per line
-\usepackage{framed}
-\definecolor{shadecolor}{RGB}{248,248,248}
-\newenvironment{Shaded}{\begin{snugshade}}{\end{snugshade}}
-\newcommand{\AlertTok}[1]{\textcolor[rgb]{0.94,0.16,0.16}{#1}}
-\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
-\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.77,0.63,0.00}{#1}}
-\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
-\newcommand{\BuiltInTok}[1]{#1}
-\newcommand{\CharTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
-\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
-\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
-\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
-\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
-\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{#1}}
-\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
-\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
-\newcommand{\ErrorTok}[1]{\textcolor[rgb]{0.64,0.00,0.00}{\textbf{#1}}}
-\newcommand{\ExtensionTok}[1]{#1}
-\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
-\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
-\newcommand{\ImportTok}[1]{#1}
-\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
-\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
-\newcommand{\NormalTok}[1]{#1}
-\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.81,0.36,0.00}{\textbf{#1}}}
-\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{#1}}
-\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
-\newcommand{\RegionMarkerTok}[1]{#1}
-\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
-\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
-\newcommand{\StringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
-\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
-\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
-\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
 \usepackage{longtable,booktabs}
 \usepackage{graphicx}
 % grffile has become a legacy package: https://ctan.org/pkg/grffile
@@ -138,12 +98,6 @@
 \setcounter{tocdepth}{1}
 \tableofcontents
 }
-\begin{Shaded}
-\begin{Highlighting}[]
-\KeywordTok{library}\NormalTok{(tidyverse)}
-\end{Highlighting}
-\end{Shaded}
-
 \hypertarget{introduction}{%
 \chapter{Introduction}\label{introduction}}
 
@@ -158,7 +112,7 @@ There are many great learning resources at the beginner stage and some incredibl
 \begin{figure}
 \centering
 \includegraphics{assets/missing-middle.png}
-\caption{Courtesy \href{https://missingmiddlehousing.com/}{Missing Middle Housing}}
+\caption{Source: \href{https://missingmiddlehousing.com/}{Missing Middle Housing}}
 \end{figure}
 
 Stretching the metaphor perhaps to its breaking point, new R users at the ``detached single-family home'' stage can't get to the advanced ``mid-rise'' level without going through the middle stage. The ``missing middle'' in the R neighborhood is the lack of resources to that answer the types of nuts and bolts questions that new R users often have. Things like:
@@ -174,6 +128,65 @@ Stretching the metaphor perhaps to its breaking point, new R users at the ``deta
 \end{itemize}
 
 This book is my attempt to provide answers to these types of questions. It will be an opinionated look at how one person (me) uses R. I'm writing it not because I think my approach is the best and that everyone should use it. I'm writing it because I believe that I can offer some ideas that can help the students I work with -- and perhaps you as well -- to go from learning R to using it in their daily practice. R has been transformative for my work and I want it to be the same for you.
+
+\hypertarget{the-problem}{%
+\section{The Problem}\label{the-problem}}
+
+\hypertarget{lots-of-beginner-tutorials}{%
+\subsection{Lots of beginner tutorials}\label{lots-of-beginner-tutorials}}
+
+\hypertarget{lots-of-ways-to-do-things-in-advanced-ways}{%
+\subsection{Lots of ways to do things in advanced ways}\label{lots-of-ways-to-do-things-in-advanced-ways}}
+
+\hypertarget{r-has-an-image-problem}{%
+\section{R Has an Image Problem}\label{r-has-an-image-problem}}
+
+\begin{itemize}
+\tightlist
+\item
+  Start with example of Jessica saying their firm doesn't want to use R because they don't work with big data
+\item
+  Use other quotes from folks saying ``not sure if our work is complicated enough to merit learning R''
+\item
+  It's easy to think people don't use R for simple things when in reality that's what many people do
+\end{itemize}
+
+\hypertarget{the-solution}{%
+\section{The Solution}\label{the-solution}}
+
+\begin{itemize}
+\tightlist
+\item
+  I'll give an example of how I use R for the types of fundamental data analysis that many people do
+\item
+  An opinionated book: you don't have to agree with me, but my approach will at least give you food for thought
+\item
+  One approach is often easiest for newbies (link to teach tidyverse first article)
+\end{itemize}
+
+\hypertarget{who-am-i}{%
+\section{Who am I?}\label{who-am-i}}
+
+\begin{itemize}
+\tightlist
+\item
+  Social scientist turned R user turned R teacher
+\item
+  Never programmed in other languages
+\end{itemize}
+
+\hypertarget{who-are-you}{%
+\section{Who are You?}\label{who-are-you}}
+
+\begin{itemize}
+\tightlist
+\item
+  You get R basics
+\item
+  But now you want to use R and run some analyses
+\item
+  Not sure where to start
+\end{itemize}
 
 \bibliography{book.bib,packages.bib}
 

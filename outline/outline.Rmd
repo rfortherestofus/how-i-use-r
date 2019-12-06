@@ -1,0 +1,118 @@
+
+
+# Installation
+
+## Windows Issues
+
+https://blog.revolutionanalytics.com/2015/11/r-projects.html
+
+# Projects
+
+
+## Project Organization
+
+- Use data/data-raw structure
+
+## Workflow
+
+- Break up data cleaning (R script) and reporting (RMarkdown)
+
+## Codebooks 
+
+Explain that R doesn't have variable/value labels like in SPSS
+
+- https://rubenarslan.github.io/codebook/
+
+# Code Style
+
+- Spaces between things
+- Line breaks
+
+# Packages
+
+I am a huge proponent of the [tidyverse](https://tidyverse.org/). This 
+
+
+# Data Import
+
+- clean_names() function
+
+# Data Wrangling and Analysis
+
+# Data Visualization
+
+## Themes
+
+## ggplot extensions
+
+https://github.com/mnbram/gggibbous
+
+# Tables
+
+- flextable
+- gt    
+- DT
+- formattable
+- kable
+- kableextra
+- huxtable (?)
+
+# Mapping
+
+- tmap
+- leaflet
+- ggplot 
+- mapview
+
+# Reporting
+
+## What format do we knit to?
+
+- When to use HTML?
+- xaringan for presentations
+
+## Word
+
+- Using Word reference documents for style
+
+# Collaboration
+
+## Windows Network Drive, Sharepoint, etc.
+
+## Google Drive, Dropbox, etc.
+
+Pluses
+
+- Easy
+
+Minuses
+
+- Only one person can work at a time
+- No version control
+
+## Git/GitHub
+
+Pluses
+
+- Hard to get set up
+
+Minuses
+
+- Multiple people can work at a time
+- Version control
+
+# Misc to categorize
+
+- https://whattheyforgot.org/
+
+Put all packages at top of script
+Load all data at top
+Twitter tip to not use scientific notation: https://twitter.com/ecologyofgavin/status/1188865515059585025
+- scales package
+
+- Use
+
+- Don't worry about naming code chunks
+- Use TOC function in RMarkdown
+- Add sections in R scripts to enable TOC
+
