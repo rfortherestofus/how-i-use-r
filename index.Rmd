@@ -36,3 +36,38 @@ This book is my attempt to provide answers to these types of questions. It will 
 
 
 
+
+
+<!-- ## The Problem -->
+
+<!-- ### Lots of beginner tutorials -->
+
+
+
+<!-- ### Lots of ways to do things in advanced ways -->
+
+<!-- ## R Has an Image Problem -->
+
+<!-- - Start with example of Jessica saying their firm doesn't want to use R because they don't work with big data -->
+<!-- - Use other quotes from folks saying "not sure if our work is complicated enough to merit learning R" -->
+<!-- - It's easy to think people don't use R for simple things when in reality that's what many people do  -->
+
+<!-- ## The Solution -->
+
+<!-- - I'll give an example of how I use R for the types of fundamental data analysis that many people do -->
+<!-- - An opinionated book: you don't have to agree with me, but my approach will at least give you food for thought -->
+<!-- - One approach is often easiest for newbies (link to teach tidyverse first article) -->
+
+<!-- ## Who am I? -->
+
+<!-- - Social scientist turned R user turned R teacher -->
+<!-- - Never programmed in other languages -->
+
+<!-- ## Who are You? -->
+
+<!-- - You get R basics -->
+<!-- - But now you want to use R and run some analyses -->
+<!-- - Not sure where to start -->
+
+
+

@@ -1,0 +1,6 @@
+# What I Do When Things Go Wrong (and They Always Do)
+
+## Guides to getting help in R
+
+- https://socviz.co/appendix.html#a-little-more-about-r
+- https://sctyner.github.io/rhelp.html

@@ -1,0 +1,34 @@
+# Visualizing Data
+
+## Themes
+
+## Using Fonts in Plots
+
+extrafont package
+
+## ggplot extensions
+
+## Formatting numbers etc
+
+- Twitter tip to not use scientific notation: https://twitter.com/ecologyofgavin/status/1188865515059585025
+- scales package
+
+## Mapping
+
+### General packages
+
+- tmap
+- leaflet
+- ggplot 
+- mapview
+
+### Geocoding
+
+- ggmap
+- https://rdrr.io/cran/tmaptools/man/geocode_OSM.html
+- opencage
+
+
+### Tables
+
+See blog post

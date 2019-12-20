@@ -15,3 +15,4 @@ Stretching the metaphor perhaps to its breaking point, new R users at the "detac
 - How do I find packages? How do I know if the packages I find are high quality?
 
 This book is my attempt to provide answers to these types of questions. It will be an opinionated look at how one person (me) uses R. I'm writing it not because I think my approach is the best and that everyone should use it. I'm writing it because I believe that I can offer some ideas that can help the students I work with -- and perhaps you as well -- to go from learning R to using it in their daily practice. R has been transformative for my work and I want it to be the same for you. 
+

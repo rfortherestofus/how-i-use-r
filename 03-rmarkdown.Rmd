@@ -1,0 +1,51 @@
+# Reporting Results with RMarkdown
+
+Explain how I didn't use RMarkdown for a long time and really missed out
+
+## General Practices
+
+### Naming Code Chunks
+
+### Use TOC
+
+### YAML
+
+- https://github.com/r-lib/ymlthis
+
+### Parameterized reports
+
+### Misc
+
+- https://github.com/ThinkR-open/remedy
+
+### Tables
+
+## What Format I Knit To When
+
+### Word
+
+Using Word reference documents for style
+
+### PDF
+
+I basically don't because I'm scared off by LaTeX
+
+### HTML
+
+#### Distill
+
+#### Bookdown
+
+https://alison.rbind.io/talk/2019-rsc-bookdown/
+
+#### Pagedown
+
+#### Dashboards
+
+#### Flexdashboard
+
+##### crosstalk
+
+##### Shiny
+
+

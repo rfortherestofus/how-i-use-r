@@ -1,0 +1,82 @@
+# Setting Myself up for Success
+
+## Software
+
+### Why I Don't Work Just in R
+
+### Why I Use RStudo, not something like R Commander
+
+### RStudio Options
+
+Uncheck load data on start new session
+
+## Code Style
+
+### Examples of other style guides
+
+- http://jef.works/R-style-guide/
+- https://style.tidyverse.org/ + https://styler.r-lib.org/index.html
+- https://google.github.io/styleguide/Rguide.xml
+- https://ropensci.github.io/dev_guide/
+- https://csgillespie.github.io/efficientR/
+
+
+### My style preferences
+
+- Spaces between things
+- Line breaks
+- Put all packages at top of script
+
+## Working with Files
+
+### Directory organization
+
+#### Use data/data-raw structure
+
+#### Naming files
+
+https://speakerdeck.com/jennybc/how-to-name-files?slide=3)
+
+
+## Packages
+
+### Where do I find packages?
+
+### How do I evaluate packages?
+
+### Why I Use the Tidyverse 
+
+- https://joss.theoj.org/papers/10.21105/joss.01686
+
+## Workflow
+
+### When to use .R vs .Rmd
+
+Break up data cleaning (R script) and reporting (RMarkdown)
+
+### Load all data at top
+
+### Add sections in R scripts to enable TOC
+
+## Git/GitHub
+
+Pluses
+
+- Hard to get set up
+
+Minuses
+
+- Multiple people can work at a time
+- Version control
+- Branching
+
+### As compared to Google Drive, Dropbox, etc.
+
+Pluses
+
+- Easy
+
+Minuses
+
+- Only one person can work at a time
+- No version control

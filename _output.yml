@@ -4,6 +4,8 @@ bookdown::gitbook:
     toc:
       before: |
         <li><a href="./index.html">How I Use R</a></li>
+      after: |
+        <li><a href="https://rfortherestofus.com" target="_blank">R for the Rest of Us</a></li>  
     download: ["pdf", "epub"]
 bookdown::pdf_book:
   includes:

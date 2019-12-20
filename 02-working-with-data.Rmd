@@ -1,0 +1,34 @@
+# Working with Data
+
+## Importing Data
+
+
+### Why to use read_csv not read.csv
+### clean_names() function
+
+### Variable and value labels
+
+#### Codebooks
+
+https://rubenarslan.github.io/codebook/
+https://cran.r-project.org/web/packages/vtable/index.html
+https://cran.r-project.org/web/packages/sjlabelled/index.html
+
+Include discussion of R vs SPSS
+
+http://josiahparry.com/post/2019-12-14-spss-haven/
+
+### Examining Data
+
+- Skimr
+- Naniar
+- DataMaid
+
+
+## Data Wrangling and Analysis
+
+## General Practices
+
+- Restart session often    
+- Create as few objects as possible   
+- Load all data at top of code

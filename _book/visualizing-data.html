@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>How I Use R</title>
-  <meta name="description" content="How I Use R" />
+  <title>5 Visualizing Data | How I Use R</title>
+  <meta name="description" content="5 Visualizing Data | How I Use R" />
   <meta name="generator" content="bookdown 0.16 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="How I Use R" />
+  <meta property="og:title" content="5 Visualizing Data | How I Use R" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="How I Use R" />
+  <meta name="twitter:title" content="5 Visualizing Data | How I Use R" />
   
   
   
@@ -30,8 +30,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-
-<link rel="next" href="setting-myself-up-for-success.html"/>
+<link rel="prev" href="reporting-results-with-rmarkdown.html"/>
+<link rel="next" href="what-i-do-when-things-go-wrong-and-they-always-do.html"/>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -156,54 +156,58 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="header">
-<h1 class="title">How I Use R</h1>
-<p class="author"><em>David Keyes // R for the Rest of Us</em></p>
+<div id="visualizing-data" class="section level1">
+<h1><span class="header-section-number">5</span> Visualizing Data</h1>
+<div id="themes" class="section level2">
+<h2><span class="header-section-number">5.1</span> Themes</h2>
 </div>
-<div id="introduction" class="section level1">
-<h1><span class="header-section-number">1</span> Introduction</h1>
-<p>Since 2018, I’ve been teaching people to use R through my company, <a href="https://rfortherestofus.com/">R for the Rest of Us</a>. It’s an incredibly rewarding experience to see people learn to use this powerful piece of software, but it can also be frustrating.</p>
-<p>One of the hardest parts of learning R (or any language) is taking knowledge from exercises and applying it to an actual project you’re working on. Concepts that make sense in the classroom suddenly become muddled when you’re back at your desk trying to use R to write a report.</p>
-<p>One of the biggest challenges I’ve had as a teacher is helping people in this stage right after they learn some fundamental R skills. After I teach folks R fundamentals through my <a href="https://rfortherestofus.com/courses/fundamentals/">online courses</a>, <a href="https://rfortherestofus.com/workshops/">workshops</a>, or <a href="https://rfortherestofus.com/custom-training/">custom training sessions</a>, I struggle to find resources for them to help them apply their new knowledge to their daily work.</p>
-<p>There are many great learning resources at the beginner stage and some incredible tutorials to master complex tasks in R. But, drawing from a concept in urban planning, there are far fewer resources in the middle.</p>
-<div class="figure">
-<img src="assets/missing-middle.png" alt="Source: Missing Middle Housing" />
-<p class="caption">Source: <a href="https://missingmiddlehousing.com/">Missing Middle Housing</a></p>
+<div id="using-fonts-in-plots" class="section level2">
+<h2><span class="header-section-number">5.2</span> Using Fonts in Plots</h2>
+<p>extrafont package</p>
 </div>
-<p>Stretching the metaphor perhaps to its breaking point, new R users at the “detached single-family home” stage can’t get to the advanced “mid-rise” level without going through the middle stage. The “missing middle” in the R neighborhood is the lack of resources to that answer the types of nuts and bolts questions that new R users often have. Things like:</p>
+<div id="ggplot-extensions" class="section level2">
+<h2><span class="header-section-number">5.3</span> ggplot extensions</h2>
+</div>
+<div id="formatting-numbers-etc" class="section level2">
+<h2><span class="header-section-number">5.4</span> Formatting numbers etc</h2>
 <ul>
-<li>How should I organize my file structure when creating a new project?</li>
-<li>Should I do data cleaning in an RMarkdown file or an R script file?</li>
-<li>How do I find packages? How do I know if the packages I find are high quality?</li>
+<li>Twitter tip to not use scientific notation: <a href="https://twitter.com/ecologyofgavin/status/1188865515059585025" class="uri">https://twitter.com/ecologyofgavin/status/1188865515059585025</a></li>
+<li>scales package</li>
 </ul>
-<p>This book is my attempt to provide answers to these types of questions. It will be an opinionated look at how one person (me) uses R. I’m writing it not because I think my approach is the best and that everyone should use it. I’m writing it because I believe that I can offer some ideas that can help the students I work with – and perhaps you as well – to go from learning R to using it in their daily practice. R has been transformative for my work and I want it to be the same for you.</p>
-<!-- ## The Problem -->
-<!-- ### Lots of beginner tutorials -->
-<!-- ### Lots of ways to do things in advanced ways -->
-<!-- ## R Has an Image Problem -->
-<!-- - Start with example of Jessica saying their firm doesn't want to use R because they don't work with big data -->
-<!-- - Use other quotes from folks saying "not sure if our work is complicated enough to merit learning R" -->
-<!-- - It's easy to think people don't use R for simple things when in reality that's what many people do  -->
-<!-- ## The Solution -->
-<!-- - I'll give an example of how I use R for the types of fundamental data analysis that many people do -->
-<!-- - An opinionated book: you don't have to agree with me, but my approach will at least give you food for thought -->
-<!-- - One approach is often easiest for newbies (link to teach tidyverse first article) -->
-<!-- ## Who am I? -->
-<!-- - Social scientist turned R user turned R teacher -->
-<!-- - Never programmed in other languages -->
-<!-- ## Who are You? -->
-<!-- - You get R basics -->
-<!-- - But now you want to use R and run some analyses -->
-<!-- - Not sure where to start -->
+</div>
+<div id="mapping" class="section level2">
+<h2><span class="header-section-number">5.5</span> Mapping</h2>
+<div id="general-packages" class="section level3">
+<h3><span class="header-section-number">5.5.1</span> General packages</h3>
+<ul>
+<li>tmap</li>
+<li>leaflet</li>
+<li>ggplot</li>
+<li>mapview</li>
+</ul>
+</div>
+<div id="geocoding" class="section level3">
+<h3><span class="header-section-number">5.5.2</span> Geocoding</h3>
+<ul>
+<li>ggmap</li>
+<li><a href="https://rdrr.io/cran/tmaptools/man/geocode_OSM.html" class="uri">https://rdrr.io/cran/tmaptools/man/geocode_OSM.html</a></li>
+<li>opencage</li>
+</ul>
+</div>
+<div id="tables-1" class="section level3">
+<h3><span class="header-section-number">5.5.3</span> Tables</h3>
+<p>See blog post</p>
 
+</div>
+</div>
 </div>
             </section>
 
           </div>
         </div>
       </div>
-
-<a href="setting-myself-up-for-success.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="reporting-results-with-rmarkdown.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="what-i-do-when-things-go-wrong-and-they-always-do.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
