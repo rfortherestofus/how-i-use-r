@@ -36,7 +36,9 @@ This book is my attempt to provide answers to these types of questions. It will 
 
 
 
+# Note
 
+What follows is an in-progress outline of the rest of this book. It will change over the next few months as I write the book. 
 
 <!-- ## The Problem -->
 
